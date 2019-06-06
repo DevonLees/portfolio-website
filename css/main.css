@@ -1,0 +1,215 @@
+/*****BASE STYLES*****/
+
+body{
+	font-family:'Barlow', sans-serif;
+	color: #2b2b2b;
+}
+#about-page, #work-page, #contact-page{
+    background: #e6ece6;
+}
+
+/*****GRID*****/
+
+.full-width{
+	width: 1200px;
+	margin: 0 auto;
+    clear: both;
+}
+
+.half-width{
+	width: 600px;
+	float: left;
+}
+
+.third-width{
+	width: 400px;
+	float: left;
+}
+
+/*****HOME PAGE*****/
+
+#main-image {
+    height: 800px;
+    background: url('https://images.pexels.com/photos/947849/pexels-photo-947849.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+}
+
+header h1 { 
+	font-family:'Playfair Display', serif; 
+    font-size:30px;
+	font-weight: 700;
+    color: #4d6149;
+    padding: 35px 0 55px 0px;
+}
+
+nav {
+    float: right; 
+    padding: 55px 0 35px 35px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #4a5153;
+    padding-left: 70px; 
+}
+
+header h2 {
+    width: 900px;
+    clear: both;
+    font-family:'Playfair Display', serif; 
+    font-size: 60px;
+    line-height: 10px;
+    color: #768975;
+    padding: 70px 0 0 65px;
+}
+
+header h2 span {
+    color: #2b2b2b;
+}
+
+header h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #bb9c43;
+}
+
+/*****ABOUT PAGE*****/
+#about .full-width {
+    padding: 35px 0 80px 0;
+    text-align: left;
+}
+
+#about-tagline{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+    padding-left: 0;
+}
+
+#about p{
+	font-size: 18px;
+	line-height: 40px;
+	padding-right: 50px;
+	color: #7f7f7f;
+}
+
+footer img{
+    vertical-align: middle;
+    max-height: 300px;
+    padding: 30px 0 30px 450px;
+
+}
+
+/*****WORK*****/
+#sample-one{
+    max-height: 500px;
+    border:10px solid #ebe9ee;
+    margin: 0 0 50px 180px;
+}
+
+#sample-two{
+    max-width: 500px;
+    border: 10px solid #ebe9ee;
+    vertical-align: top;
+    margin: 0 0 0 50px;
+}
+
+#work{
+	text-align: center;
+}
+
+#work img{
+	padding-bottom: 30px;
+}
+
+.icon-dimensions{
+    max-height:72px;
+    max-width: 85px;
+}
+
+#work h3{
+	font-size: 24px;
+	line-height: 32px;
+	width:192px;
+	margin: 0 auto;
+}
+
+#work p{
+	font-family:'Playfair Display', serif; 
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/*****CONTACT*****/
+#contact .full-width{
+	padding: 115px 0;
+    clear: both;
+}
+
+#contact img#contact-image {
+    margin-left: 25px;
+    border: 12px solid #ffffff;
+	width:517px;
+	height:368px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+    max-height: 28px;
+    max-width: 31px;
+    vertical-align: bottom;
+}
+
+#contact h2 {
+    font-family:'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header{
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #4d6149;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    padding-right: 54px;
+    max-height: 29px;
+    max-width: 28px;
+}
+
