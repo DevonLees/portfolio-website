@@ -4,7 +4,7 @@ body{
 	font-family:'Barlow', sans-serif;
 	color: #2b2b2b;
 }
-#about-page, #work-page, #contact-page{
+#about-page, #work-page {
     background: #e6ece6;
 }
 
@@ -92,7 +92,7 @@ header h4{
 }
 
 #about p{
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 40px;
 	padding-right: 50px;
 	color: #7f7f7f;
@@ -106,96 +106,70 @@ footer img{
 }
 
 /*****WORK*****/
-#sample-one{
-    max-height: 500px;
-    border:10px solid #ebe9ee;
-    margin: 0 0 50px 180px;
-}
-
-#sample-two{
-    max-width: 500px;
-    border: 10px solid #ebe9ee;
-    vertical-align: top;
-    margin: 0 0 0 50px;
-}
-
 #work{
-	text-align: center;
+    color:#4d6149;
+    font-family:'Barlow', sans-serif;
+    font-size: 24px;
+}
+#work h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+
+#work h4{
+    font-size:24px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
 }
 
 #work img{
-	padding-bottom: 30px;
+    border: 5px solid white;
+    height: 350px;
+    margin: auto auto 55px 50px;
+    width: 450px;
 }
 
-.icon-dimensions{
-    max-height:72px;
-    max-width: 85px;
+#work h5{
+    font-size:24px;
+    font-weight: normal;
+    margin:0;
 }
-
-#work h3{
-	font-size: 24px;
-	line-height: 32px;
-	width:192px;
-	margin: 0 auto;
-}
-
 #work p{
-	font-family:'Playfair Display', serif; 
-    font-size: 18px;
-    line-height: 30px;
-    padding: 0 50px;
+    font-size: 24px;
 }
 
 /*****CONTACT*****/
 #contact .full-width{
-	padding: 115px 0;
     clear: both;
 }
 
 #contact img#contact-image {
-    margin-left: 25px;
+    margin: 50px auto auto 25px;
     border: 12px solid #ffffff;
 	width:517px;
 	height:368px;
 }
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    padding-left: 115px;
+#contact{
+    background: #dae6d2;
+    text-align: center;
+    color:#4d6149;
+    font-family:'Barlow', sans-serif;
+    font-size: 24px;
+}
+#contact h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin: 100px 0 100px 0;
+    text-align: center;
 }
 
-#contact #envelope {
-    padding: 0 10px 0 115px;
-    max-height: 28px;
-    max-width: 31px;
-    vertical-align: bottom;
-}
-
-#contact h2 {
-    font-family:'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
-}
-
-#contact #email-header{
-    font-size: 32px;
-    font-weight: normal;
-    line-height: 44px;
-    margin: -30px 0 5px 0;
-}
-
-#contact #socialmedia-header {
+#contact h4{
+    font-size:24px;
     font-weight: bold;
-    font-size: 29px;
-    line-height: 44px;
-    margin: 40px 0 0 0;
-}
-
-#contact a {
-    text-decoration: none;
-    color: #4d6149;
-    font-weight: bold;
-    font-size: 28px;
+    margin: 5px 0 0 0;
 }
 
 #contact ul {
@@ -208,8 +182,12 @@ footer img{
 
 #contact ul img {
     font-size: 32px;
-    padding-right: 54px;
     max-height: 29px;
     max-width: 28px;
+    padding-right: 54px;
+}
+
+#contact p{
+    margin:0;
 }
 
