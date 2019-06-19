@@ -79,28 +79,30 @@ header h4{
     color: #bb9c43;
 }
 
-/*****ABOUT PAGE*****/
-#about-page header{
+/****NON HOME PAGE NAV BAR****/
+
+#about-page header, #work-page header, #contact-page header{
     background: url('../img/header-test.jpg');
     background-size: cover;
     height:120px;
 }
 
-#about-page h1 {
+#about-page h1, #work-page h1, #contact-page h1 {
     margin-top: 40px;
 }
 
-#about-page nav{
+#about-page nav, #work-page nav, #contact-page nav{
     margin-top: 20px;
     margin-right: 36px;
 }
 
-#about-page nav ul li a {
+#about-page nav ul li a, #work-page nav ul li a, #contact-page nav ul li a {
     color:#4d6149;
     font-size: 18px;
     padding-left: 60px; 
 }
 
+/*****ABOUT PAGE*****/
 #about .full-width {
     padding: 35px 0 80px 0;
     text-align: left;
@@ -127,26 +129,6 @@ footer img{
 }
 
 /*****WORK*****/
-#work-page header{
-    background: url('../img/header-test.jpg');
-    background-size: cover;
-    height:120px;
-}
-
-#work-page h1 {
-    margin-top: 40px;
-}
-
-#work-page nav{
-    margin-top: 20px;
-    margin-right: 36px;
-}
-
-#work-page nav ul li a {
-    color:#4d6149;
-    font-size: 18px;
-    padding-left: 60px; 
-}
 
 #work{
     color:#4d6149;
