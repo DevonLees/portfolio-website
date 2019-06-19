@@ -5,7 +5,7 @@ body{
 	color: #2b2b2b;
 }
 #about-page, #work-page {
-    background: #e6ece6;
+    background: #e2e2e2;
 }
 
 /*****GRID*****/
@@ -80,15 +80,37 @@ header h4{
 }
 
 /*****ABOUT PAGE*****/
+#about-page header{
+	background: url('../img/header-test.jpg');
+	background-size: cover;
+	height:120px;
+}
+
+#about-page h1 {
+	margin-top: 40px;
+}
+
+#about-page nav{
+	margin-top: 20px;
+	margin-right: 36px;
+}
+
+#about-page nav ul li a {
+	color:#4d6149;
+    font-size: 16px;
+    padding-left: 60px; 
+    font-weight: bold;
+}
+
 #about .full-width {
     padding: 35px 0 80px 0;
     text-align: left;
 }
 
 #about-tagline{
+	color: #7f7f7f;
 	font-family: 'Playfair Display', serif;
 	font-size: 36px;
-    padding-left: 0;
 }
 
 #about p{
